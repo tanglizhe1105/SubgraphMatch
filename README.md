@@ -41,7 +41,11 @@ Query graph edge(id, id):
 4 2
 
 the matching result is:
+1,4,3,5
+2,4,3,5
 
+These results means there exist 2 matched subgraph
+the matched subgraph vertex id in data graph 1,4,3,5 response to query graph vertex 1,2,3,4 respectively
 ```
 
 This project is about computing subgraph matching with spark in distributed environment.

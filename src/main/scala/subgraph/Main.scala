@@ -26,7 +26,7 @@ import scala.collection.{immutable, mutable}
 
 object Main {
   def main(args: Array[String]) {
-    val numPartitions = 60
+    val numPartitions = 1
     val checkPointInternal = 4
 
     if (args.length != 6) {
