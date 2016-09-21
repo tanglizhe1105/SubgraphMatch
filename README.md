@@ -1,7 +1,7 @@
-#Subgraph Matching
+#Subgraph Matching on Spark
 
-##Find all these subgraphs matching to query graph in data graph.
-##The matching requirs vertex tag matching and edges matching
+Find all subgraphs which is matched to query graph in data graph.
+The matching requires vertex tag matching and edge matching between result graph and query graph
 
 for example:
 ```
