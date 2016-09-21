@@ -1,7 +1,8 @@
 #Subgraph Matching on Spark
 
-Find all subgraphs which is matched to query graph in data graph.
-The matching requires vertex tag matching and edge matching between result graph and query graph
+- This is a sbt project.
+- Subgraph matching is aimed to find all subgraphs which is matched to query graph in data graph.
+- The matching requires vertex tag matching and edge matching between result graph and query graph.
 
 for example:
 ```
@@ -48,7 +49,7 @@ These results means there exist 2 matched subgraph
 the matched subgraph vertex id in data graph 1,4,3,5 response to query graph vertex 1,2,3,4 respectively
 ```
 
-This project is about computing subgraph matching with spark in distributed environment.
-The work's idea comes from following paper:
+- This project is about computing subgraph matching with spark in distributed environment.
+- The work's idea comes from following paper:
 Sun, Zhao, et al. "Efficient subgraph matching on billion node graphs." Proceedings of the VLDB Endowment 5.9 (2012): 788-799.
 Developed by Tang Lizhe, National Laboratory for Parallel and Distributed Processing, National University of Defense Technology, Changsha, China;
